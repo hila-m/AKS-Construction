@@ -1386,7 +1386,7 @@
     {
       "condition": "[not(empty(parameters('azurepolicy')))]",
       "type": "Microsoft.Authorization/policyAssignments",
-      "apiVersion": "2022-06-01",
+      "apiVersion": "2022-09-01",
       "name": "[format('{0}-{1}', parameters('resourceName'), parameters('azurePolicyInitiative'))]",
       "location": "[parameters('location')]",
       "properties": {
